@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    list-style-type: none !important;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+
+/* font-family */
+.ff_rubik {
+    font-family: Rubik, sans-serif;
+}
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<navbar >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>                                                                                                                                                                                `*/
+nav ul li {
+    padding-left: 40px;
+}
+
+nav ul li a:hover {
+    color: #F53838 !important;
+}
+
+.nab_btn {
+    background: white;
+    border-radius: 16px;
+    padding: 12px 40px;
+    border: 1px solid #F53855;
+}
+
+.nab_btn:hover {
+    background: orangered;
+    color: white !important;
+    border: 1px solid pink;
+}
+
+.logo_transform:hover {
+    transform: scale(1.1);
+    transition: all 0.5s linear;
+}
+
+.hero_btn {
+    background: #F53838;
+    border-radius: 10px;
+    padding: 17px 60px;
+    box-shadow: -1px 15px 24px -8px rgba(245, 56, 56, 0.45);
+}
+
+.hero_btn:hover {
+    background: white;
+    color: black !important;
+    border: 1px solid brown;
+    box-shadow: -2px 15px 13px -12px rgba(245, 56, 56, 1);
+}
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< hero_section <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<,*/
+
+.hr_1 {
+    height: 125.573486328125px;
+    width: 0px;
+    left: 515.5px;
+    top: 701.7625732421875px;
+    border-radius: 0px;
+    border: 2px solid #EEEFF2;
+    color: #EEEFF2;
+}
+
+.box_shadow {
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 50px 21px #0d10250d;
+}
+
+.section_3_box {
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    padding: 80px;
+    height: 760px;
+}
+
+.section_3_box:hover {
+    border: 2px solid #F53838;
+}
+
+.right_arrow {
+    height: 9.07120418548584px;
+    width: 13.326489448547363px;
+}
+
+.section_3_btn {
+    border: 2px solid #F53838;
+    border-radius: 50px;
+    padding: 13px 60px;
+}
+
+.section_3_btn:hover {
+    border: 2px solid #F53838;
+    color: white !important;
+    background: orangered;
+    box-shadow: -2px 15px 13px -12px rgba(245, 56, 56, 1);
+}
+
+.section_5_box {
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    height: 250px;
+    padding: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.section_5_box:hover {
+    border: 2px solid #F53838;
+}
+
+.section_6_box {
+    background: #FFFFFF;
+    border-radius: 10px;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 0px 3px 30px -1px #0d102511;
+}
+
+.section6_bg_clr {
+    background-color: #E5E5E5;
+    ;
+}
+
+.subscribe_now {
+    transform: translate(0%, 50%);
+}
+
+.footer_bg_clr {
+    background-color: #F8F8F8;
+}
+ 
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<slick_slider>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.slider_btn {
+    height: 60px;
+    width: 60px;
+    border: 2px solid #F53838;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+
+.slider_btn:hover {
+    background-color: #F53838;
+}
+
+.slider_btn:hover .slider_btn_arrow {
+    color: #FFFFFF;
+}
+
+.slider_btn_arrow {
+    line-height: 0.5;
+    color: #F53838;
+}
+
+.slick-dots li button:before {
+    font-size: 20px;
+    top: 20px;
+    left: 0;
+    height: 20px;
+    opacity: 0.8;
+    color: grey;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 0.7;
+    color: red;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: -25px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<media_query >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+@media (min-width:992px) {
+    .we {
+        height: 100px;
+        width: 383px;
+    }
+
+    .you {
+        height: 60px;
+        width: 427px;
+
+    }
+
+    .huge {
+        height: 100px;
+        width: 383px;
+    }
+
+    .see {
+        height: 60px;
+        width: 555px;
+    }
+
+    .section_4_w20 {
+        width: 20%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .trusted {
+        height: 100px;
+        width: 447px;
+    }
+
+    .these {
+        height: 60px;
+        width: 555px;
+    }
+
+    .subscribe {
+        height: 80px;
+        width: 371.5px;
+    }
+
+    .lasles {
+        height: 61px;
+        width: 340px;
+    }
+
+    .pt_100_lg_min {
+        padding-top: 100px;
+    }
+
+}
+
+@media (min-width:576px) {
+    .pt_50_sm_min {
+        padding-top: 60px;
+    }
+
+}
+
+@media (min-width:1200px) {
+    .slick-dots li button:before {
+        top: 60px;
+        left: -555px;
+    }
+}
+
+@media (max-width:1200px) {
+    nav ul {
+        position: absolute;
+        top: 0;
+        left: -100%;
+        background-color: #FFECEC;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        line-height: 4;
+        transition: 0.8s;
+    }
+
+    .left {
+        left: 0;
+    }
+
+    .span {
+        padding: 3px 18px;
+        background-color: #0B132A;
+        border-radius: 10px;
+        margin-top: 3px;
+        z-index: 3;
+    }
+    nav ul li {
+        padding-left: 0;
+    }
+}
+
+@media (max-width:992px) {
+
+    .subscribe_now {
+        transform: translate(0%, 30%);
+    }
+}
+
+@media (max-width:576px) {
+    .hero_btn {
+        background: #F53838;
+        border-radius: 10px;
+        padding: 12px 35px;
+    }
+
+    .section_3_btn {
+        padding: 10px 50px;
+    }
+
+    .section_3_box {
+        padding: 50px;
+        height: 640px;
+    }
+
+    .subscribe_now {
+        transform: translate(0%, 20%);
+    }
+}
